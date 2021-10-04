@@ -10,14 +10,6 @@ soup = BeautifulSoup(r.text, 'html.parser')
 title = soup.title.text
 if title == "Onion.Ws Tor2Web Gateway":
     print("""
-       |\      _,,,---,,_
-   /,`.-'`'    -.  ;-;;,_
-  |,4-  ) )-,_..;\ (  `'-'
- '---''(_/--'  `-'\_)  Site is OffLine
- Author: @anir0y
-    """)
-else:
-    print("""
           _.---.._             _.---...__
    .-'   /\   \          .'  /\     /
    `.   (  )   \        /   (  )   /
